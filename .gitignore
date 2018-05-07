@@ -82,3 +82,12 @@ TheMiniGame/Library/metadata/43/43faf6d408bb3894b8eed3a66e0d4e25
 TheMiniGame/Library/ScriptAssemblies/Assembly-CSharp.dll
 *.mdb
 TheMiniGame/Temp/UnityTempFile-cc5f9e4aaaf4b3642acaddbdc7e09453
+
+Library/
+Temp/
+*.sln
+*.csproj
+*.sln
+*.userprefs
+*.unityproj
+*.DS_Store
