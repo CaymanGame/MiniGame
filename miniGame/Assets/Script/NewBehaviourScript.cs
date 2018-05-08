@@ -9,7 +9,7 @@ public class NewBehaviourScript : MonoBehaviour {
           
           Debug.Log("<color=blue>blue:</color>");
           Debug.Log("<color=blue>blue:</color>");
-          Debug.Log("<color=blue>blue:xxxx</color>");
+          Debug.Log("<color=blue>blue:xxxxy</color>");
 
 
 
