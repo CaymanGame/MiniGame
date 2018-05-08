@@ -358,7 +358,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4765397831301918, guid: cfeb7ea9781c50b4c8b05048018edc9b, type: 2}
       propertyPath: m_LocalPosition.y
+<<<<<<< HEAD
       value: 0.14
+=======
+      value: 3.2
+>>>>>>> parent of f890073... 提交场景2
       objectReference: {fileID: 0}
     - target: {fileID: 4765397831301918, guid: cfeb7ea9781c50b4c8b05048018edc9b, type: 2}
       propertyPath: m_LocalPosition.z
