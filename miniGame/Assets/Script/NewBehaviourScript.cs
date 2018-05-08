@@ -11,7 +11,7 @@ public class NewBehaviourScript : MonoBehaviour {
 
           
 
-          Debug.Log("<color=red>red:</color>"+"ddd");
+          Debug.Log("<color=red>red:</color>"+"dddy");
 
 
      
