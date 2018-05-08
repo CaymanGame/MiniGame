@@ -11,11 +11,7 @@ public class NewBehaviourScript : MonoBehaviour {
 
           
 
-<<<<<<< HEAD
-          Debug.Log("<color=red>red:</color>"+"dddyx");
-=======
-          Debug.Log("<color=red>red:</color>"+"ddd");
->>>>>>> parent of cb8ba2a... test
+
 
 
      
