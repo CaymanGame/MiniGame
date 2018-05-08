@@ -9,11 +9,8 @@ public class NewBehaviourScript : MonoBehaviour {
           
           Debug.Log("<color=blue>blue:</color>");
           Debug.Log("<color=blue>blue:</color>");
-<<<<<<< HEAD
-          Debug.Log("<color=blue>blue:xxxxysdfdfd</color>");
-=======
           Debug.Log("<color=blue>blue:xxxx</color>");
->>>>>>> parent of 8fe9722... test
+
 
 
 
