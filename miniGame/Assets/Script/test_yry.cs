@@ -7,6 +7,7 @@ public class test_yry : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         print("change");
+        print("change2");
 	}
 	
 	// Update is called once per frame
