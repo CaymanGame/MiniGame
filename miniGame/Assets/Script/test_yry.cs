@@ -7,6 +7,9 @@ public class test_yry : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
           Debug.Log("<color=blue>blue:</color>");
+
+        print("change");
+
 	}
 	
 	// Update is called once per frame
