@@ -8,8 +8,13 @@ public class NewBehaviourScript : MonoBehaviour {
 	void Start () {
           
           Debug.Log("<color=blue>blue:</color>");
-          
-          Debug.Log("<color=red>red:</color>");
+          Debug.Log("<color=blue>blue:</color>");
+         
+
+
+
+
+
      
 	}
 	

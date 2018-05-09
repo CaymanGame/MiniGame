@@ -6,4 +6,7 @@ Temp/
 *.DS_Store
 *.v12.suo
 *.csproj
+
 *.sln
+
+*.csproj
