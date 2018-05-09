@@ -10,3 +10,4 @@ Temp/
 *.sln
 
 *.csproj
+*.suo
