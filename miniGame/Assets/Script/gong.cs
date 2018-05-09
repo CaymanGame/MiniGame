@@ -9,7 +9,7 @@ public class gong : MonoBehaviour {
 	void Start () {
         test.enabled = false;
           
-        Debug.Log("<color=blue>blue:</color>");
+       
      
 	}
 	
