@@ -9,7 +9,7 @@ public class test_yry : MonoBehaviour {
           Debug.Log("<color=blue>blue:</color>");
 
         print("change");
-
+        print("change2");
 	}
 	
 	// Update is called once per frame
