@@ -4,6 +4,12 @@ using System.Collections.Generic;
 
 namespace Tools
 {
+     /// <summary>
+     /// 设计并不好的内存池，
+     /// 理想设计是，统一给可以放入内存池物体类，
+     /// 每个物体有原始备份，在使用数量超出时，直接复制
+     /// 用完的物体自动放入待使用区
+     /// </summary>
      public class PoolManager : GenericSingletonClass<PoolManager>
      {
           //	private const int listname = 1;
