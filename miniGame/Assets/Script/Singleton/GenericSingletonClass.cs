@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
-namespace GasPowerGeneration
+namespace Tools
 {
 	public class GenericSingletonClass<T>  : MonoBehaviour where T : Component
 

@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-namespace GasPowerGeneration
+namespace Tools
 {
      public class GenericDontDestroy<T> : MonoBehaviour where T : Component
      {
