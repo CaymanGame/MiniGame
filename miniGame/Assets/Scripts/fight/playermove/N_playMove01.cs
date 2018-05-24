@@ -16,6 +16,8 @@ namespace Fight
                }
                m_goto = _worldpos;
                m_player.DOLookAt(_worldpos, 0.35f).OnComplete(fnp_moveTo);
+               //先隐藏尾巴
+               fnp_showtail(false);
 
               
           }
@@ -23,6 +25,17 @@ namespace Fight
           protected virtual void fnp_moveTo()
           {
                m_player.DOMove(m_goto, Random.RandomRange(0.1f, 0.2f)).SetEase(Ease.InSine);
+               //显示拖尾
+               fnp_showtail();
+          }
+          public GameObject m_tail = null;
+          public bool m_showTail = true;
+          protected virtual void fnp_showtail(bool _show=true)
+          {
+               if (m_showTail && m_tail!=null)
+               {
+                    m_tail.SetActive(_show);
+               }
           }
      } 
 }
