@@ -1,11 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Fight;
 /// <summary>
 /// 测试点击，射线发送到3d空间中
 /// </summary>
 public class testGetTouchDot : MonoBehaviour {
      public GameObject m_move = null;
+     public AB_playMove m_player = null;
 	// Use this for initialization
 	void Start () {
           
@@ -22,9 +24,13 @@ public class testGetTouchDot : MonoBehaviour {
                {
                     Vector3 t_hitPoint = t_rayhit.point;
                     //Debug.Log("<color=blue>blue:</color>" + t_hitPoint);
-                    if (m_move != null)
+                    //if (m_move != null)
+                    //{
+                    //     m_move.transform.position = t_hitPoint;
+                    //}
+                    if (m_player!=null)
                     {
-                         m_move.transform.position = t_hitPoint;
+                         m_player.fn_move(t_hitPoint);
                     }
                }
                
